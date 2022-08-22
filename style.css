@@ -1,0 +1,39 @@
+
+
+ img {
+    width: 100%;
+    height: auto;
+    
+ }
+ .half_width {
+    width: 50%;
+ }
+
+ header {
+    padding: 20px 50px;
+    width: 100%;
+ }
+ 
+ 
+ .container-width {
+    display: flex;
+    background: #000;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 0rem;
+    color: #fff;
+ 
+ 
+ }
+ h1{
+    color: orange;
+ }
+ 
+ 
+
+    
+    
+ 
+
+ 
