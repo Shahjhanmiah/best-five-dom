@@ -44,7 +44,7 @@
                   <h2 class="d-inline">30Goals-</h2>
                   <h2 class="d-inline">120Assist</h2>
                   <br>
-                  <button id="palyer-1" class="btn btn-primary">SELECT</button>
+                  <button onclick="myFunction1()" id="palyer-1" class="btn btn-primary">SELECT</button>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@
                   <h2 class="d-inline">30Goals-</h2>
                   <h2 class="d-inline">120Assist</h2>
                   <br>
-                  <button id="palyer-2" class="btn btn-primary">SELECT</button>
+                  <button onclick="myFunction2()" id="palyer-2" class="btn btn-primary">SELECT</button>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@
                   <h2 class="d-inline">30Goals-</h2>
                   <h2 class="d-inline">120Assist</h2>
                   <br>
-                  <button id="palyer-3" class="btn btn-primary">SELECT</button>
+                  <button onclick="myFunction3()" id="palyer-3" class="btn btn-primary">SELECT</button>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@
                   <h2 class="d-inline">30Goals-</h2>
                   <h2 class="d-inline">120Assist</h2>
                   <br>
-                  <button id="palyer-4" class="btn btn-primary">SELECT</button>
+                  <button onclick="myFunction4()" id="palyer-4" class="btn btn-primary">SELECT</button>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@
                   <h2 class="d-inline">30Goals-</h2>
                   <h2 class="d-inline">120Assist</h2>
                   <br>
-                  <button id="palyer-5" class="btn btn-primary">SELECT</button>
+                  <button onclick="myFunction5()" id="palyer-5" class="btn btn-primary">SELECT</button>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@
                   <h2 class="d-inline">30Goals-</h2>
                   <h2 class="d-inline">120Assist</h2>
                   <br>
-                  <button id="palyer-6" class="btn btn-primary">SELECT</button>
+                  <button onclick="myFunction6()" id="palyer-6" class="btn btn-primary">SELECT</button>
                 </div>
               </div>
             </div>
@@ -119,8 +119,8 @@
         <div class="col-3">
             <div class="row gx-3">
               <div class="player-selection col-12">
-                <div class="card">
-                  <div class="card-body">
+                <div onclick="myFunction6()" class="card">
+                  <div  onclass="card-body">
                     <h2 class="card-title">Select</h2>
                     <ul id="main-container" ></ul>
                   </div>
@@ -130,18 +130,19 @@
                 <div class="card">
                   <div class="card-body">
                     <h2 class="card-title">Buget:</h2>
-                    <p style="font-size: 15px;"> Per Player - <input style="width: 100px;" type="text"></p>
+                    <p style="font-size: 15px;"> Per Player - <input style="width: 100px;" type="text" id="player-price" ></p>
            
-                    <button id="player-price" style="width: 200px;" class="btn btn-primary" type="button">Calculate</button>
+                    <button style="width: 200px;" class="btn btn-primary" type="button" id="CoachSalary>Calculate" </button>
                     <br>
                     <br>
-                    <p style="font-size: 15px;">Player Expenses- $<span>00</span></p>
-                    <p style="font-size: 15px;"> Manager - <input style="width: 100px;" type="text"></p>
-                    <p style="font-size: 15px;"> Coach - <input style="width: 100px;" type="text"></p>
+                    <p style="font-size: 15px;">Player Expenses- $<span id="total-balance">00</span></p>
+
+                    <p  style="font-size: 15px;"> Manager - <input id="manager-salary" style="width: 100px;" type="text"></p>
+                    <p  style="font-size: 15px;"> Coach - <input id="coach-salary" style="width: 100px;" type="text"></p>
                     
-                    <button  style="width: 200px;" class="btn btn-primary" type="button">Calculate Total</button>
+                    <button id="calculate"  style="width: 200px;" class="btn btn-primary" type="button">Calculate Total</button>
                     <br>
-                    <p>Total Amount ---- $<span>00</span></p>
+                    <p>Total Amount ---- $<span id="total-expensess">00</span></p>
                     
                    
                   </div>
