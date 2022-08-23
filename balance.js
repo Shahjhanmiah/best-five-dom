@@ -40,7 +40,7 @@ document.getElementById('calculate').addEventListener('click',function(){
     const totalExpensess=  document.getElementById('total-expensess');
     const previousTotalExpensessString= totalExpensess.innerText;
     const previousTotalExpensess= parseFloat(previousTotalExpensessString);
-    const totalAmount=previousCoachSalary+newManagerSalary;
+    const totalAmount=previousTotalExpensess+newManagerSalary;
     totalExpensess.innerText=totalAmount;
 
 

@@ -4,6 +4,12 @@ document.getElementById('palyer-1').addEventListener('click', function(){
     li1.innerText = '1.Lionel Messic';
     mainContainer.appendChild(li1);
 
+    if(saveList.children.length==5){
+
+        alert('top five player not allow')
+        return; 
+    }
+
 
     
 
@@ -40,6 +46,7 @@ document.getElementById('palyer-5').addEventListener('click', function(){
     const li1 = document.createElement('li');
     li1.innerText = '5.RenatoSanches';
     mainContainer.appendChild(li1);
+
     
 
 
