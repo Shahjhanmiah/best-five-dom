@@ -4,11 +4,7 @@ document.getElementById('palyer-1').addEventListener('click', function(){
     li1.innerText = '1.Lionel Messic';
     mainContainer.appendChild(li1);
 
-    if(saveList.children.length==5){
-
-        alert('top five player not allow')
-        return; 
-    }
+    
 
 
     
@@ -77,9 +73,23 @@ function myFunction4() {
 function myFunction5() {
     document.getElementById("palyer-5").disabled = true;
   }
-function myFunction6() {
-    document.getElementById("palyer-6").disabled = true;
+
+
+
+ /* function something() {
+   if(playerArray.length<=5){
+    mainContainer.appendChild(li1);
+
+   }
+   else (){
+    alert('you ve already selected five palyer')
+    return;
+   }
   }
+  */
+
+
+
    
 
 
